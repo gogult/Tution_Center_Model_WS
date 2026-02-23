@@ -5,25 +5,25 @@ const TestimonialData = [
   {
     id: 1,
     name: "Victor",
-    text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque reiciendis inventore iste ratione ex alias quis magni at optio",
+    text: "“The classes are well-structured and easy to follow. Teachers motivate students and focus on fundamentals, which helped me score better.”",
     img: "https://picsum.photos/101/101",
   },
   {
     id: 2,
     name: "Satya Nadella",
-    text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque reiciendis inventore iste ratione ex alias quis magni at optio",
+    text: "“Excellent tuition center with experienced faculty. The progress reports and feedback sessions keep parents well informed.”",
     img: "https://picsum.photos/102/102",
   },
   {
     id: 3,
-    name: "Virat Kohli",
-    text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque reiciendis inventore iste ratione ex alias quis magni at optio",
+    name: "Alexander",
+    text: "“Small batch sizes and individual attention helped me understand difficult topics easily. I highly recommend this tuition center.”",
     img: "https://picsum.photos/104/104",
   },
   {
     id: 5,
-    name: "Sachin Tendulkar",
-    text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque reiciendis inventore iste ratione ex alias quis magni at optio",
+    name: "Arun Kumar",
+    text: "“The teachers explain concepts very clearly and are always ready to clear doubts. My understanding and confidence in subjects have improved a lot.”",
     img: "https://picsum.photos/103/103",
   },
 ];
@@ -73,14 +73,14 @@ const Testimonials = () => {
         {/* header section */}
         <div className="text-center mb-10 max-w-[600px] mx-auto">
           <p data-aos="fade-up" className="text-sm text-primary">
-            What our customers are saying
+            What Our Students & Parents Say
           </p>
           <h1 data-aos="fade-up" className="text-3xl font-bold">
             Testimonials
           </h1>
           <p data-aos="fade-up" className="text-xs text-gray-400">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sit
-            asperiores modi Sit asperiores modi
+            Our students and parents share their experiences about quality teaching,
+             personal attention, and improved academic performance.
           </p>
         </div>
 

@@ -8,21 +8,21 @@ const ProductsData = [
   {
     id: 1,
     img: Img1,
-    title: "Casual Wear",
+    title: "Foundation Course (Classes 6–8)",
     description:
       "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
   },
   {
     id: 2,
     img: Img2,
-    title: "Printed shirt",
+    title: "Board Exam Preparation (Classes 9–10)",
     description:
       "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
   },
   {
     id: 3,
     img: Img3,
-    title: "Women shirt",
+    title: "Higher Secondary Coaching (Classes 11–12)",
     description:
       "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
   },
@@ -76,7 +76,7 @@ const TopProducts = ({ handleOrderPopup }) => {
                   className="bg-primary hover:scale-105 duration-300 text-white py-1 px-4 rounded-full mt-4 group-hover:bg-white group-hover:text-primary"
                   onClick={handleOrderPopup}
                 >
-                  Order Now
+                  Enroll now
                 </button>
               </div>
             </div>

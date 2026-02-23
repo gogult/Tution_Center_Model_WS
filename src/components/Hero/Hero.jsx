@@ -8,23 +8,23 @@ const ImageList = [
   {
     id: 1,
     img: Image1,
-    title: "Upto 50% off on all Men's Wear",
+    title: "Shaping Futures Through Quality Education",
     description:
-      "lorem His Life will forever be Changed dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "Dedicated faculty, proven teaching methods, and continuous evaluation to help students reach their academic goals.",
   },
   {
     id: 2,
     img: Image2,
-    title: "30% off on all Women's Wear",
+    title: "Result speaks ARM delivers",
     description:
-      "Who's there lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "Concept-based teaching, regular assessments, and doubt-clearing sessions designed to improve understanding and performance.",
   },
   {
     id: 3,
     img: Image3,
-    title: "70% off on all Products Sale",
+    title: "Expert Guidance for Academic Excellence",
     description:
-      "consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "Personalized coaching, experienced faculty, and focused learning to help students achieve top results with confidence.",
   },
 ];
 
@@ -79,7 +79,7 @@ const Hero = ({ handleOrderPopup }) => {
                       onClick={handleOrderPopup}
                       className="bg-gradient-to-r from-primary to-secondary hover:scale-105 duration-200 text-white py-2 px-4 rounded-full"
                     >
-                      Order Now
+                      Enrol now
                     </button>
                   </div>
                 </div>
@@ -92,7 +92,7 @@ const Hero = ({ handleOrderPopup }) => {
                   >
                     <img
                       src={data.img}
-                      alt=""
+                      alt="" 
                       className="w-[300px] h-[300px] sm:h-[450px] sm:w-[450px] sm:scale-105 lg:scale-120 object-contain mx-auto"
                     />
                   </div>

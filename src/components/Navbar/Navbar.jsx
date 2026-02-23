@@ -8,27 +8,27 @@ import DarkMode from "./DarkMode";
 const Menu = [
   {
     id: 1,
-    name: "Home",
+    name: "Classroom Courses",
     link: "/#",
   },
   {
     id: 2,
-    name: "Top Rated",
+    name: "Online courses",
     link: "/#services",
   },
   {
     id: 3,
-    name: "Kids Wear",
+    name: "Test Series", 
     link: "/#",
   },
   {
     id: 3,
-    name: "Mens Wear",
+    name: "Results",
     link: "/#",
   },
   {
     id: 3,
-    name: "Electronics",
+    name: "Schrolorships",
     link: "/#",
   },
 ];
@@ -36,12 +36,12 @@ const Menu = [
 const DropdownLinks = [
   {
     id: 1,
-    name: "Trending Products",
+    name: "Trending cources",
     link: "/#",
   },
   {
     id: 2,
-    name: "Best Selling",
+    name: "Best Selling courses",
     link: "/#",
   },
   {
@@ -60,7 +60,7 @@ const Navbar = ({ handleOrderPopup }) => {
           <div>
             <a href="#" className="font-bold text-2xl sm:text-3xl flex gap-2">
               <img src={Logo} alt="Logo" className="w-10" />
-              Shopsy
+              ARM
             </a>
           </div>
 
@@ -76,7 +76,7 @@ const Navbar = ({ handleOrderPopup }) => {
             </div>
 
             {/* order button */}
-            <button
+            {/* <button
               onClick={() => handleOrderPopup()}
               className="bg-gradient-to-r from-primary to-secondary transition-all duration-200 text-white  py-1 px-4 rounded-full flex items-center gap-3 group"
             >
@@ -84,7 +84,7 @@ const Navbar = ({ handleOrderPopup }) => {
                 Order
               </span>
               <FaCartShopping className="text-xl text-white drop-shadow-sm cursor-pointer" />
-            </button>
+            </button> */}
 
             {/* Darkmode Switch */}
             <div>
